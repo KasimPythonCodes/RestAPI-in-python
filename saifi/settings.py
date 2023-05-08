@@ -129,9 +129,9 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 # disable browser api
-REST_FRAMEWORK = {
-    'DEFAULT_RENDERER_CLASSES':('rest_framework.renderers.JSONRenderer',)
-}
+# REST_FRAMEWORK = {
+#     'DEFAULT_RENDERER_CLASSES':('rest_framework.renderers.JSONRenderer',)
+# }
 
 
 CORS_ALLOWED_ORIGINS = [
